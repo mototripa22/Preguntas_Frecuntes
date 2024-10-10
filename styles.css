@@ -1,0 +1,83 @@
+/* Ajustes generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Ajuste de la fuente para mayor consistencia con la referencia */
+    background-color: #e9eef3; /* Fondo general de la página con tono azulado claro */
+    color: #333; /* Color de texto principal para asegurar buena legibilidad */
+    margin: 0; /* Eliminar el margen predeterminado del navegador */
+    padding: 0; /* Eliminar el padding predeterminado del navegador */
+}
+
+/* Encabezado de la Página */
+header {
+    text-align: center; /* Alinear todo el contenido del encabezado al centro */
+    padding: 60px 20px; /* Espaciado superior e inferior más grande para dar respiro al contenido */
+    background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco con un poco de transparencia */
+}
+
+header h1 {
+    font-size: 2.8em; /* Aumentar tamaño de fuente del encabezado para darle importancia */
+    font-weight: bold; /* Hace el encabezado más prominente */
+    margin-bottom: 15px; /* Espacio entre el título principal y la descripción */
+    color: #111; /* Color más oscuro para que destaque del fondo */
+}
+
+header p {
+    color: #666; /* Color gris claro para diferenciar la descripción del título */
+    font-size: 1.2em; /* Tamaño de fuente un poco más grande para mejorar la legibilidad */
+    margin-top: 10px; /* Espacio superior para mejorar la separación con el título */
+}
+
+/* Sección de Preguntas Frecuentes (.faq) */
+.faq {
+    max-width: 800px; /* Limitar el ancho de la sección para asegurar una buena legibilidad en pantallas grandes */
+    margin: 40px auto; /* Centrar la sección y agregar espacio vertical */
+    padding: 30px; /* Añadir espacio interno para dar respiro al contenido */
+    /*background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco con transparencia */
+    /*border-radius: 8px; /* Bordes redondeados para una apariencia suave y moderna */
+    /*box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad al contenedor */
+}
+
+/* Elementos de la FAQ */
+.faq-item {
+    margin-bottom: 40px; /* Añadir espacio inferior entre las preguntas frecuentes */
+}
+
+.faq-item h2 {
+    font-size: 1.6em; /* Aumentar el tamaño del encabezado para destacar la pregunta */
+    color: #111; /* Color más oscuro para resaltar las preguntas */
+    margin-bottom: 15px; /* Añadir espacio inferior para separar la pregunta del contenido de la respuesta */
+    font-weight: bold; /* Hacer el encabezado más visible */
+}
+
+/* Párrafos Dentro de la FAQ */
+.faq-item p {
+    font-size: 1em; /* Tamaño estándar de fuente para buena legibilidad */
+    color: #111; /* Ajuste de color para que coincida con las preguntas y encabezado */
+    line-height: 1.6; /* Mejora del espaciado entre líneas para mayor legibilidad */
+    margin-bottom: 20px; /* Añadir espacio inferior entre párrafos y otros elementos */
+}
+
+/* Listas Dentro de la FAQ */
+.faq-item ol,
+.faq-item ul {
+    margin-left: 25px; /* Aumentar margen para mejor alineación visual */
+    color: #111; /* Color consistente con el encabezado y preguntas */
+    line-height: 1.6; /* Mejora del espaciado entre líneas */
+}
+
+/* Estilos de Enlaces */
+.faq-item a {
+    color: #0066cc; /* Color azul para diferenciar los enlaces del texto regular */
+    text-decoration: none; /* Eliminar subrayado predeterminado de los enlaces */
+    font-weight: bold; /* Hacer los enlaces más visibles */
+}
+
+.faq-item a:hover {
+    text-decoration: underline; /* Subrayar los enlaces al pasar el cursor por encima para indicar que son interactivos */
+}
+
+/* Línea divisoria */
+.divider {
+    border-top: 1px solid #e0e0e0; /* Línea gris clara para separar las secciones visualmente */
+    margin: 25px 0; /* Añadir espacio superior e inferior para separación adecuada */
+}
